@@ -1,0 +1,25 @@
+body{
+ background-color:#C0A586;
+ border: 3px solid white;
+}
+h1{
+ font-size: 20px;
+ color: #D47962;
+ text-align: center;
+ border: 2px solid white;
+ background-color: white;
+ padding: 15px;
+  margin-right: 150px;
+   margin-left: 70px;
+}
+h2{
+
+ font-size: 20px;
+ color: #D47962;
+ text-align: center;
+ border: 2px solid white;
+ background-color: white;
+ padding: 10px;
+ margin-right: 130px;  
+ margin-left: 70px;
+}

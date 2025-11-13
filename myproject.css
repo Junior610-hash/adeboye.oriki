@@ -1,0 +1,219 @@
+
+
+body{
+background-color: #052F25;
+
+}
+header{
+  text-align: center;
+} 
+head{
+  
+  margin-left: 300px;
+  margin-right: 300PX;
+ 
+}
+
+.poetry{
+color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+    margin-bottom: 10px;
+    width: 45%;
+    margin-left: 70px;
+}
+
+h1{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 30px;
+ 
+  margin-left: 300px;
+  color: white;
+}
+h2{
+   font-size: 30px;
+   color: white;
+  
+   margin-left: 40px;
+}
+
+a{
+  margin-left: 40px;
+  border: 3px solid white;
+  background-color: rgb(209, 39, 39);
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+ 
+  
+}
+a:link,a:visited{
+  text-decoration: none;
+ 
+}
+.exp a:hover{
+ background-color: white;
+ transition: 0. 3s;
+ transform: 1.1;
+ padding: 15px;
+}
+.oriki{
+  background-image: url(oriki\ man\ 3.pics.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  width:49%;
+  opacity: 0.85;
+  margin: 50px;
+  text-align: left;
+  
+  
+ 
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-left: 300px;
+  
+}
+
+
+.head2{
+  background-color: white;
+  padding-top:  6px;
+  padding-bottom: 15px;
+ 
+}
+h4{
+  color: #052F25;
+ text-align: center;
+ font-size: 30px;
+}
+.oriki2 a{
+ background-color: #052F25;
+margin-bottom: 25px;
+ padding: 15px;
+ text-align: center;
+}
+.oriki2 a:hover{
+  background-color: yellow;
+ transition: 0.3s;
+ transform: scale(1);
+ padding: 20px;
+}
+
+/* ✅ RESPONSIVE DESIGN */
+
+/* Medium screens: Tablets / Small laptops */
+@media (max-width: 1024px) {
+
+  h1 {
+    margin-left: 100px;
+    font-size: 22px;
+  }
+
+  .poetry {
+    width: 70%;
+    margin-left: 50px;
+  }
+
+  .oriki {
+    margin-left: 50px;
+    width: 75%;
+    background-size: cover;
+  }
+}
+
+/* ✅ Phones and smaller tablets */
+@media (max-width: 768px) {
+
+  h1 {
+    margin-left: 20px;
+    font-size: 22px;
+  }
+
+  h2 {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+
+  .poetry {
+    width: 85%;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+
+  .oriki {
+    margin-left: 20px;
+    width: 90%;
+    height: 350px;
+    background-size: cover;
+  }
+
+  a {
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* ✅ Small Smartphones */
+@media (max-width: 480px) {
+
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h2 {
+    margin-left: 0;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .poetry {
+    width: 95%;
+    margin: 10px auto;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .oriki {
+    width: 100%;
+    margin: 20px auto;
+    height: 300px;
+    background-position: center;
+  }
+
+  a {
+    width: 90%;
+    display: inline-block;
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .head2 {
+    padding: 10px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  .oriki2 a {
+    width: 90%;
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+
+
+  
